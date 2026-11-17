@@ -1,0 +1,22 @@
+{
+  "name": "@mekdeck/cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The mekdeck command line: create, pack, validate, inspect, evaluate and export MekDeck projects. Also the base for headless rendering.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "mekdeck": "./src/bin.ts"
+  },
+  "exports": {
+    ".": "./src/cli.ts"
+  },
+  "files": ["src"],
+  "dependencies": {
+    "@mekdeck/codegen": "workspace:*",
+    "@mekdeck/core": "workspace:*",
+    "@mekdeck/format": "workspace:*",
+    "@mekdeck/nodes": "workspace:*",
+    "@mekdeck/scene": "workspace:*"
+  }
+}

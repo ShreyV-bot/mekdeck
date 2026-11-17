@@ -1,0 +1,19 @@
+{
+  "name": "@mekdeck/codegen",
+  "version": "0.1.0",
+  "description": "MekDeck code generators: turn a Scene IR into readable, runnable source code with a graph-to-code source map.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "sideEffects": false,
+  "files": ["src"],
+  "dependencies": {
+    "@mekdeck/core": "workspace:*",
+    "@mekdeck/scene": "workspace:*"
+  },
+  "devDependencies": {
+    "@mekdeck/nodes": "workspace:*"
+  }
+}

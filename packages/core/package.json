@@ -1,0 +1,12 @@
+{
+  "name": "@mekdeck/core",
+  "version": "0.1.0",
+  "description": "MekDeck core: typed node-graph model, undo/redo history and incremental evaluator. Platform-neutral (no Node or DOM APIs).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "sideEffects": false,
+  "files": ["src"]
+}

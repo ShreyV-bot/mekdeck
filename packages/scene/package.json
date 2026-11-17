@@ -1,0 +1,12 @@
+{
+  "name": "@mekdeck/scene",
+  "version": "0.1.0",
+  "description": "MekDeck Scene IR: the renderer-agnostic description of a 3D scene that node graphs produce and that renderers and code generators consume.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "sideEffects": false,
+  "files": ["src"]
+}

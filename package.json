@@ -1,0 +1,22 @@
+{
+  "name": "mekdeck",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MekDeck: an open-source universal platform for building 3D websites, games, apps and the software that builds software.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test \"packages/*/test/**/*.test.ts\"",
+    "typecheck": "tsc -p tsconfig.json",
+    "check": "pnpm typecheck && pnpm test",
+    "mekdeck": "node packages/cli/src/bin.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "typescript": "^6.0.3"
+  }
+}

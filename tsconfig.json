@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@mekdeck/core": ["./packages/core/src/index.ts"],
+      "@mekdeck/scene": ["./packages/scene/src/index.ts"],
+      "@mekdeck/nodes": ["./packages/nodes/src/index.ts"],
+      "@mekdeck/format": ["./packages/format/src/index.ts"],
+      "@mekdeck/codegen": ["./packages/codegen/src/index.ts"]
+    }
+  },
+  "include": ["packages/*/src/**/*.ts", "packages/*/test/**/*.ts"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@mekdeck/nodes",
+  "version": "0.1.0",
+  "description": "MekDeck standard node library: values, math, vectors and scene building blocks.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "sideEffects": false,
+  "files": ["src"],
+  "dependencies": {
+    "@mekdeck/core": "workspace:*",
+    "@mekdeck/scene": "workspace:*"
+  }
+}

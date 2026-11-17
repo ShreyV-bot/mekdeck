@@ -1,0 +1,13 @@
+node_modules/
+dist/
+out/
+coverage/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.log
+# Local scratch projects created while developing
+/scratch/

@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.mekd binary
+*.png binary
+*.jpg binary
+*.glb binary
+*.zip binary

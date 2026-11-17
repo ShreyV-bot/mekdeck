@@ -1,0 +1,11 @@
+MekDeck
+Copyright 2026 The MekDeck contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+MekDeck's core packages have no third-party runtime dependencies.
+Development tooling (TypeScript and Node.js type definitions) is used under
+its own licenses and is not distributed with MekDeck.
+
+Projects you create with MekDeck, and the source code it generates for you,
+belong to you. The generated code is not subject to MekDeck's license.

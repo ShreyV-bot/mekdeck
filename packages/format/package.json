@@ -1,0 +1,19 @@
+{
+  "name": "@mekdeck/format",
+  "version": "0.1.0",
+  "description": "The .mekd project file format: a deterministic, integrity-checked, safe-to-import ZIP container. Platform-neutral (Web APIs only).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "sideEffects": false,
+  "files": ["src"],
+  "dependencies": {
+    "@mekdeck/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@mekdeck/nodes": "workspace:*",
+    "@mekdeck/scene": "workspace:*"
+  }
+}
